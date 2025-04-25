@@ -15,4 +15,25 @@ header nav h1{
   padding-top: 20px;
 }
 
+.main{
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+  display: flexbox;
+  position: relative;
+}
+
+.main .welcome{
+  font-size: 2rem;
+  color: rgb(129, 95, 56);
+}
+
+.main .products{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: rosybrown;
+}
+
 
