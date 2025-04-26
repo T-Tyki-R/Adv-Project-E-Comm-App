@@ -4,9 +4,9 @@ import ProductsList from "./ProductsList"
 /* Main.jsx  */
 const Main = () => {
     const [products] = useState([
-      { id: 1, name: "Vanilla Dream", price: 4.50, description: "A slightly creamy and sweetened chai tea blended with vanilla, honey, and half & half" },
-      { id: 2, name: "Tropical Melody", price: 4.00, description: "A refreashing red tea with a hint of pineapple and mango" },
-      { id: 3, name: "Jasmine Bliss", price: 4.25, description: "A soothing and sweetened jasmine tea with a hint honey and vanilla" }
+      { id: 1, name: "Vanilla Dream", price: 4.50, description: "Slightly-sweet chai-milk tea with a splash of vanilla and honey" },
+      { id: 2, name: "Tropical Melody", price: 4.00, description: "Refreashing red tea with a hint of pineapple and mango" },
+      { id: 3, name: "Jasmine Bliss", price: 4.25, description: "Soothing and sweetened jasmine tea with a dash of honey and ginseng" }
     ]);
      
     return (
